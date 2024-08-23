@@ -7,7 +7,7 @@ body {
 	min-height: 100vh;
 }
 
-#band {
+#bands {
 	list-style: inisde square;
 	font-size: 20px;
 	background: white;
@@ -17,11 +17,11 @@ body {
 	box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
 }
 
-#band li {
+#bands li {
 	border-bottom: 1px solid #efefef'
 	padding: 20px;
 }
 
-#band li:last-child {
+#bands li:last-child {
 	border-bottom: 0;
 }

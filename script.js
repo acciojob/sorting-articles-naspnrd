@@ -7,4 +7,4 @@ function strip(bandName) {
 // "The Plot in You" => " Plot in You" => "Plot in You"
 const sortedbands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
  
-document.querySelector("#band").innerHTML = sortedbands.map((band) => `<li>${band}</li>`).join("");
+document.querySelector("#bands").innerHTML = sortedbands.map((band) => `<li>${band}</li>`).join("");
